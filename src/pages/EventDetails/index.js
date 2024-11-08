@@ -14,7 +14,7 @@ const events = [
     },
     date: '13 fev - 2025',
     time: '19:00',
-    producer: 'José Silva',
+    producer: 'Jacinto Pinto',
     image: 'https://images.sympla.com.br/670af7a73f02a-xs.jpg'
   },
   {
@@ -28,7 +28,7 @@ const events = [
     },
     date: '08 nov - 2024',
     time: '08:30',
-    producer: 'Nerso Pereira',
+    producer: 'Vanilda Vagem',
     image: 'https://images.sympla.com.br/671be4d68b11f-xs.jpg'
   },
   {
@@ -42,7 +42,7 @@ const events = [
     },
     date: '19 nov - 2024',
     time: '19:00',
-    producer: 'KiKa Oliveira',
+    producer: ' Abelardo Alface',
     image: 'https://images.sympla.com.br/66f598f89456b-xs.png'
   },
   {
@@ -56,7 +56,7 @@ const events = [
     },
     date: '28 nov - 2024',
     time: '11:30',
-    producer: 'KiKa Oliveira',
+    producer: 'Gilmar Gelatina',
     image: 'https://images.sympla.com.br/67237951828a9-xs.jpg'
   },
   {
@@ -70,7 +70,7 @@ const events = [
     },
     date: '10 nov - 2024',
     time: '11:00',
-    producer: 'KiKa Oliveira',
+    producer: 'Nadir Nugget ',
     image: 'https://images.sympla.com.br/6711333be9df6-xs.jpg'
   },
   {
@@ -84,7 +84,7 @@ const events = [
     },
     date: '27 nov - 2024',
     time: '18:30',
-    producer: 'KiKa Oliveira',
+    producer: 'Zuleide Coxinha',
     image: 'https://images.sympla.com.br/671b9b5385868-xs.jpg'
   },
   {
@@ -98,7 +98,7 @@ const events = [
     },
     date: '16 dez - 2024',
     time: '08:00',
-    producer: 'KiKa Oliveira',
+    producer: 'Cícero Pudim',
     image: 'https://images.sympla.com.br/67167638f0ea7-xs.png'
   },
   {
@@ -112,7 +112,7 @@ const events = [
     },
     date: '25 nov - 2024',
     time: '13:00',
-    producer: 'KiKa Oliveira',
+    producer: ' Aeronauta Barata Kuskovisqui',
     image: 'https://images.sympla.com.br/67228cc780cfd-xs.jpg'
   },
   {
@@ -126,7 +126,7 @@ const events = [
     },
     date: '07 nov - 2024',
     time: '14:00',
-    producer: 'KiKa Oliveira',
+    producer: 'Raimunda Silva',
     image: 'https://images.sympla.com.br/6719503b8a940-xs.jpg'
   }
 ];
@@ -147,7 +147,11 @@ function EventDetail() {
     setLoginSuccess(true);
     setTimeout(() => {
       navigate("/home");
-    }, 1000);
+    }, 300);
+    setTimeout(() => {
+      setLoginSuccess(false);
+    })
+
   };
 
   return (

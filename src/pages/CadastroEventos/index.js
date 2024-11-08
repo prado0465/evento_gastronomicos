@@ -58,6 +58,7 @@ const CadastroEventos = () => {
     <div className="eventos-container">
       <aside className="filtro-container">
         <h2>Filtros</h2>
+        <hr />
         <input
           type="text"
           placeholder="Buscar por evento"

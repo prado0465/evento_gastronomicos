@@ -11,7 +11,7 @@
 
 h1 {
   font-size: 28px;
-  color: #4CAF50;  
+  color: #d6ead7;  
   margin-bottom: 20px;  
 }
 
@@ -39,7 +39,7 @@ input {
 button {
   padding: 10px;
   font-size: 16px;
-  color: #fff;  
+  color: #1a1818;  
   background-color: #4CAF50;  
   border: none;
   border-radius: 4px; 
@@ -53,6 +53,6 @@ button:hover {
 
 .esqueceu_1, .esqueceu_2 {
   text-decoration: none; 
-  color: #4CAF50; 
+  color: #eef7f0; 
   margin-top: 10px; 
 }

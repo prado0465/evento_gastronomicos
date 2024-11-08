@@ -78,7 +78,7 @@ function Home() {
   return (
     <div className="home-container">
       <h1>Bem-vindo ao sistema de Eventos Gastronômicos</h1>
-      <p>Escolha uma opção de menu para começar.</p>
+      <p>Seleciona Uma das Opacões.</p>
 
       <div className="eventos-container">
         <aside className="filtro-container">
@@ -97,7 +97,7 @@ function Home() {
               <img src={evento.imagem} alt={evento.titulo} />
               <div className="evento-info">
                 <h3>{evento.titulo}</h3>
-                <p>{evento.data}</p>
+                <p>{evento.data}</p> 
                 <p>{evento.local}</p>
                 
                 <Link className='esqueceu_4' to={`/event/${evento.id}`}>Ver detalhes</Link>
@@ -105,7 +105,7 @@ function Home() {
             </div>
           ))}
         </main>
-      </div>
+      </div> 
     </div>
   );
 }

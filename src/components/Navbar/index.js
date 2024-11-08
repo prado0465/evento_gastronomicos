@@ -7,8 +7,7 @@ function NavBar() {
         <nav>
             <ul>
                 <li><Link to="/home">Home</Link></li>
-                <li><Link to="/cadastro-prato">Cadastro de Prato</Link></li>
-                <li><Link to="/gastronomy-map">Mapa</Link></li>
+                <li><Link to="/eventos">Eventos</Link></li>
             </ul>
         </nav>
     );
